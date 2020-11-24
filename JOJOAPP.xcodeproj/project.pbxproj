@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA10A694256CAAA1004E69CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A693256CAAA1004E69CA /* AppDelegate.swift */; };
+		FA10A696256CAAA1004E69CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A695256CAAA1004E69CA /* SceneDelegate.swift */; };
+		FA10A698256CAAA1004E69CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A697256CAAA1004E69CA /* ViewController.swift */; };
+		FA10A69B256CAAA1004E69CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA10A699256CAAA1004E69CA /* Main.storyboard */; };
+		FA10A69D256CAAA3004E69CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA10A69C256CAAA3004E69CA /* Assets.xcassets */; };
+		FA10A6A0256CAAA3004E69CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA10A69E256CAAA3004E69CA /* LaunchScreen.storyboard */; };
+		FA10A6AB256CAAA3004E69CA /* JOJOAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6AA256CAAA3004E69CA /* JOJOAPPTests.swift */; };
+		FA10A6B6256CAAA3004E69CA /* JOJOAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6B5256CAAA3004E69CA /* JOJOAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA10A6A7256CAAA3004E69CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA10A688256CAAA1004E69CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA10A68F256CAAA1004E69CA;
+			remoteInfo = JOJOAPP;
+		};
+		FA10A6B2256CAAA3004E69CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA10A688256CAAA1004E69CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA10A68F256CAAA1004E69CA;
+			remoteInfo = JOJOAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA10A690256CAAA1004E69CA /* JOJOAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JOJOAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA10A693256CAAA1004E69CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA10A695256CAAA1004E69CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA10A697256CAAA1004E69CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA10A69A256CAAA1004E69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA10A69C256CAAA3004E69CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA10A69F256CAAA3004E69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA10A6A1256CAAA3004E69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA10A6A6256CAAA3004E69CA /* JOJOAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOJOAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA10A6AA256CAAA3004E69CA /* JOJOAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOJOAPPTests.swift; sourceTree = "<group>"; };
+		FA10A6AC256CAAA3004E69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA10A6B1256CAAA3004E69CA /* JOJOAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOJOAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA10A6B5256CAAA3004E69CA /* JOJOAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOJOAPPUITests.swift; sourceTree = "<group>"; };
+		FA10A6B7256CAAA3004E69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA10A68D256CAAA1004E69CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA10A6A3256CAAA3004E69CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA10A6AE256CAAA3004E69CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA10A687256CAAA1004E69CA = {
+			isa = PBXGroup;
+			children = (
+				FA10A692256CAAA1004E69CA /* JOJOAPP */,
+				FA10A6A9256CAAA3004E69CA /* JOJOAPPTests */,
+				FA10A6B4256CAAA3004E69CA /* JOJOAPPUITests */,
+				FA10A691256CAAA1004E69CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA10A691256CAAA1004E69CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A690256CAAA1004E69CA /* JOJOAPP.app */,
+				FA10A6A6256CAAA3004E69CA /* JOJOAPPTests.xctest */,
+				FA10A6B1256CAAA3004E69CA /* JOJOAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA10A692256CAAA1004E69CA /* JOJOAPP */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A693256CAAA1004E69CA /* AppDelegate.swift */,
+				FA10A695256CAAA1004E69CA /* SceneDelegate.swift */,
+				FA10A697256CAAA1004E69CA /* ViewController.swift */,
+				FA10A699256CAAA1004E69CA /* Main.storyboard */,
+				FA10A69C256CAAA3004E69CA /* Assets.xcassets */,
+				FA10A69E256CAAA3004E69CA /* LaunchScreen.storyboard */,
+				FA10A6A1256CAAA3004E69CA /* Info.plist */,
+			);
+			path = JOJOAPP;
+			sourceTree = "<group>";
+		};
+		FA10A6A9256CAAA3004E69CA /* JOJOAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A6AA256CAAA3004E69CA /* JOJOAPPTests.swift */,
+				FA10A6AC256CAAA3004E69CA /* Info.plist */,
+			);
+			path = JOJOAPPTests;
+			sourceTree = "<group>";
+		};
+		FA10A6B4256CAAA3004E69CA /* JOJOAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A6B5256CAAA3004E69CA /* JOJOAPPUITests.swift */,
+				FA10A6B7256CAAA3004E69CA /* Info.plist */,
+			);
+			path = JOJOAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA10A68F256CAAA1004E69CA /* JOJOAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA10A6BA256CAAA3004E69CA /* Build configuration list for PBXNativeTarget "JOJOAPP" */;
+			buildPhases = (
+				FA10A68C256CAAA1004E69CA /* Sources */,
+				FA10A68D256CAAA1004E69CA /* Frameworks */,
+				FA10A68E256CAAA1004E69CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JOJOAPP;
+			productName = JOJOAPP;
+			productReference = FA10A690256CAAA1004E69CA /* JOJOAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA10A6A5256CAAA3004E69CA /* JOJOAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA10A6BD256CAAA3004E69CA /* Build configuration list for PBXNativeTarget "JOJOAPPTests" */;
+			buildPhases = (
+				FA10A6A2256CAAA3004E69CA /* Sources */,
+				FA10A6A3256CAAA3004E69CA /* Frameworks */,
+				FA10A6A4256CAAA3004E69CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA10A6A8256CAAA3004E69CA /* PBXTargetDependency */,
+			);
+			name = JOJOAPPTests;
+			productName = JOJOAPPTests;
+			productReference = FA10A6A6256CAAA3004E69CA /* JOJOAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA10A6B0256CAAA3004E69CA /* JOJOAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA10A6C0256CAAA3004E69CA /* Build configuration list for PBXNativeTarget "JOJOAPPUITests" */;
+			buildPhases = (
+				FA10A6AD256CAAA3004E69CA /* Sources */,
+				FA10A6AE256CAAA3004E69CA /* Frameworks */,
+				FA10A6AF256CAAA3004E69CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA10A6B3256CAAA3004E69CA /* PBXTargetDependency */,
+			);
+			name = JOJOAPPUITests;
+			productName = JOJOAPPUITests;
+			productReference = FA10A6B1256CAAA3004E69CA /* JOJOAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA10A688256CAAA1004E69CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FA10A68F256CAAA1004E69CA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					FA10A6A5256CAAA3004E69CA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FA10A68F256CAAA1004E69CA;
+					};
+					FA10A6B0256CAAA3004E69CA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FA10A68F256CAAA1004E69CA;
+					};
+				};
+			};
+			buildConfigurationList = FA10A68B256CAAA1004E69CA /* Build configuration list for PBXProject "JOJOAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA10A687256CAAA1004E69CA;
+			productRefGroup = FA10A691256CAAA1004E69CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA10A68F256CAAA1004E69CA /* JOJOAPP */,
+				FA10A6A5256CAAA3004E69CA /* JOJOAPPTests */,
+				FA10A6B0256CAAA3004E69CA /* JOJOAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA10A68E256CAAA1004E69CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA10A6A0256CAAA3004E69CA /* LaunchScreen.storyboard in Resources */,
+				FA10A69D256CAAA3004E69CA /* Assets.xcassets in Resources */,
+				FA10A69B256CAAA1004E69CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA10A6A4256CAAA3004E69CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA10A6AF256CAAA3004E69CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA10A68C256CAAA1004E69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA10A698256CAAA1004E69CA /* ViewController.swift in Sources */,
+				FA10A694256CAAA1004E69CA /* AppDelegate.swift in Sources */,
+				FA10A696256CAAA1004E69CA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA10A6A2256CAAA3004E69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA10A6AB256CAAA3004E69CA /* JOJOAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA10A6AD256CAAA3004E69CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA10A6B6256CAAA3004E69CA /* JOJOAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA10A6A8256CAAA3004E69CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA10A68F256CAAA1004E69CA /* JOJOAPP */;
+			targetProxy = FA10A6A7256CAAA3004E69CA /* PBXContainerItemProxy */;
+		};
+		FA10A6B3256CAAA3004E69CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA10A68F256CAAA1004E69CA /* JOJOAPP */;
+			targetProxy = FA10A6B2256CAAA3004E69CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA10A699256CAAA1004E69CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA10A69A256CAAA1004E69CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA10A69E256CAAA3004E69CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA10A69F256CAAA3004E69CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA10A6B8256CAAA3004E69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA10A6B9256CAAA3004E69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA10A6BB256CAAA3004E69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8KSD66U34;
+				INFOPLIST_FILE = JOJOAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA10A6BC256CAAA3004E69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8KSD66U34;
+				INFOPLIST_FILE = JOJOAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA10A6BE256CAAA3004E69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8KSD66U34;
+				INFOPLIST_FILE = JOJOAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JOJOAPP.app/JOJOAPP";
+			};
+			name = Debug;
+		};
+		FA10A6BF256CAAA3004E69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8KSD66U34;
+				INFOPLIST_FILE = JOJOAPPTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JOJOAPP.app/JOJOAPP";
+			};
+			name = Release;
+		};
+		FA10A6C1256CAAA3004E69CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8KSD66U34;
+				INFOPLIST_FILE = JOJOAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JOJOAPP;
+			};
+			name = Debug;
+		};
+		FA10A6C2256CAAA3004E69CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8KSD66U34;
+				INFOPLIST_FILE = JOJOAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JOJOAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA10A68B256CAAA1004E69CA /* Build configuration list for PBXProject "JOJOAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA10A6B8256CAAA3004E69CA /* Debug */,
+				FA10A6B9256CAAA3004E69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA10A6BA256CAAA3004E69CA /* Build configuration list for PBXNativeTarget "JOJOAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA10A6BB256CAAA3004E69CA /* Debug */,
+				FA10A6BC256CAAA3004E69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA10A6BD256CAAA3004E69CA /* Build configuration list for PBXNativeTarget "JOJOAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA10A6BE256CAAA3004E69CA /* Debug */,
+				FA10A6BF256CAAA3004E69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA10A6C0256CAAA3004E69CA /* Build configuration list for PBXNativeTarget "JOJOAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA10A6C1256CAAA3004E69CA /* Debug */,
+				FA10A6C2256CAAA3004E69CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA10A688256CAAA1004E69CA /* Project object */;
+}
