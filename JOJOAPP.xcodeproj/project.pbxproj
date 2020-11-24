@@ -15,6 +15,9 @@
 		FA10A6A0256CAAA3004E69CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA10A69E256CAAA3004E69CA /* LaunchScreen.storyboard */; };
 		FA10A6AB256CAAA3004E69CA /* JOJOAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6AA256CAAA3004E69CA /* JOJOAPPTests.swift */; };
 		FA10A6B6256CAAA3004E69CA /* JOJOAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6B5256CAAA3004E69CA /* JOJOAPPUITests.swift */; };
+		FA10A6D3256CAB29004E69CA /* Jojo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6D2256CAB29004E69CA /* Jojo.swift */; };
+		FA10A6E3256CAD83004E69CA /* JojoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6E2256CAD83004E69CA /* JojoImageView.swift */; };
+		FA10A6E8256CADA7004E69CA /* SubstituteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA10A6E7256CADA7004E69CA /* SubstituteImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FA10A6B1256CAAA3004E69CA /* JOJOAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOJOAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA10A6B5256CAAA3004E69CA /* JOJOAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JOJOAPPUITests.swift; sourceTree = "<group>"; };
 		FA10A6B7256CAAA3004E69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA10A6D2256CAB29004E69CA /* Jojo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jojo.swift; sourceTree = "<group>"; };
+		FA10A6E2256CAD83004E69CA /* JojoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JojoImageView.swift; sourceTree = "<group>"; };
+		FA10A6E7256CADA7004E69CA /* SubstituteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstituteImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,9 @@
 		FA10A692256CAAA1004E69CA /* JOJOAPP */ = {
 			isa = PBXGroup;
 			children = (
-				FA10A693256CAAA1004E69CA /* AppDelegate.swift */,
-				FA10A695256CAAA1004E69CA /* SceneDelegate.swift */,
-				FA10A697256CAAA1004E69CA /* ViewController.swift */,
+				FA10A6D1256CAABF004E69CA /* Model */,
+				FA10A6C6256CAAAB004E69CA /* Delegate */,
+				FA10A6CA256CAAB5004E69CA /* Controller */,
 				FA10A699256CAAA1004E69CA /* Main.storyboard */,
 				FA10A69C256CAAA3004E69CA /* Assets.xcassets */,
 				FA10A69E256CAAA3004E69CA /* LaunchScreen.storyboard */,
@@ -126,6 +132,33 @@
 				FA10A6B7256CAAA3004E69CA /* Info.plist */,
 			);
 			path = JOJOAPPUITests;
+			sourceTree = "<group>";
+		};
+		FA10A6C6256CAAAB004E69CA /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A693256CAAA1004E69CA /* AppDelegate.swift */,
+				FA10A695256CAAA1004E69CA /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FA10A6CA256CAAB5004E69CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A697256CAAA1004E69CA /* ViewController.swift */,
+				FA10A6E2256CAD83004E69CA /* JojoImageView.swift */,
+				FA10A6E7256CADA7004E69CA /* SubstituteImageView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA10A6D1256CAABF004E69CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA10A6D2256CAB29004E69CA /* Jojo.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA10A6E8256CADA7004E69CA /* SubstituteImageView.swift in Sources */,
 				FA10A698256CAAA1004E69CA /* ViewController.swift in Sources */,
 				FA10A694256CAAA1004E69CA /* AppDelegate.swift in Sources */,
+				FA10A6E3256CAD83004E69CA /* JojoImageView.swift in Sources */,
 				FA10A696256CAAA1004E69CA /* SceneDelegate.swift in Sources */,
+				FA10A6D3256CAB29004E69CA /* Jojo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +472,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N8KSD66U34;
 				INFOPLIST_FILE = JOJOAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +482,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EP101;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,7 +493,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = N8KSD66U34;
 				INFOPLIST_FILE = JOJOAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +503,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = class.ep101.JOJOAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = EP101;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
